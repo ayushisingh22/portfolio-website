@@ -1,0 +1,82 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+header {
+  background: #1e1e1e;
+  padding: 1em 2em;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  color: #ffffff;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+nav ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+.intro {
+  text-align: center;
+  padding: 3em 1em;
+}
+.btn {
+  background: #444;
+  color: #fff;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  display: inline-block;
+}
+section {
+  padding: 2em 1em;
+}
+.skills span {
+  display: inline-block;
+  background: #333;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+.project {
+  background: #1e1e1e;
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 8px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+input, textarea, button {
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px;
+}
+button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #1e1e1e;
+}
